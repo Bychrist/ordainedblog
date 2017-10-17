@@ -1,0 +1,132 @@
+.list-group-item{
+   background-color:#E1A70B;
+   font-color:#FFFFFF;
+   font-weight: bolder;
+   font-family: courier;
+   font-size: 1.2em;
+   font-variant-caps: small-caps;
+  
+}
+
+
+
+.pfoot{
+  color:#000;
+}
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+.divide{
+  border-top:2px dotted #FA0b0b;
+
+}
+ul.nav.navbar-nav > li > a{
+  color:#000;
+  font-weight: bolder;
+  font-family: courier;
+  font-size: 1.5em;
+  font-variant-caps: small-caps;
+}
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+    left: 0;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}
+
+.hr{
+  border-top: #FA0B0B solid 2px;
+  margin-top:-1px;
+
+}
+.blogbtn{
+  background-color: #FA0B0B ;
+  border-color: #FA0B0B 
+  color:#fff;
+}
+.category{
+  color: #fff;
+  font-weight: bolder;
+  font-family:Courier;
+}
+
+.btn-default{
+  color:#fff;
+  font-weight: bolder;
+  font-family: courier;
+  border:#FA0B0B dotted 2px;
+  background-color: #E1A70B;
+}
+h4,h2,h1{
+  color:#000;
+  font-family: courier;
+  font-weight: bolder;
+  font-variant-caps: small-caps;
+}
+
+.navbar-inverse{
+  /*background-color: #E1A70B;*/
+  border-top:solid #ECCF49 20px ;
+  border-bottom:solid #ECCF49 20px ;
+  
+}
+
+#span{
+  color:#FFFFFF;
+}
+.author{
+  background-color: #FFF;
+  margin-bottom: 50px;
+  border:dotted 5px #E1A70B;
+  padding:5px;
+}
+.written{
+  font-size: 1.2em;
+  font-weight: bolder;
+  color:#000;
+}
+
+.mid{
+  color:#000;
+}
